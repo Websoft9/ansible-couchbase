@@ -8,8 +8,7 @@
 
 ## Couchbase
 
-* MySQL可视化管理地址： *http://服务器公网 IP:8091*
-   ![phpMyAdmin](https://libs.websoft9.com/Websoft9/DocsPicture/zh/mysql/phpmyadmin-logincn-websoft9.png)
+* Couchbase可视化管理地址： *http://服务器公网 IP:8091*
 
 ## Linux
 
