@@ -1,26 +1,47 @@
 # 参数
 
-## 组件及路径
+Couchbase 预装包包含 Couchbase 运行所需一序列支撑软件（简称为“组件”），下面列出主要组件名称、安装路径、配置文件地址、端口、版本等重要的信息。
 
-Couchbaseh部署包中不仅仅只有Scratch本身，还包含一序列支持Scratch运行所需的其他软件（这里称之为组件），下面列出主要组件名称、安装路径、配置文件地址等重要的信息：
+## 路径
 
-### Couchbase
+### Couchbase Server
 
-Couchbaseh安装目录: /opt/couchbase 
-Couchbase配置文件: /opt/couchbase/etc/couchbase/static_config
-数据库路径：/opt/couchbase/var/lib/couchbase
-日志文件路径：/opt/couchbase/var/lib/couchbase/logs
+Couchbase Server 安装目录： */opt/couchbase*  
+Couchbase Server 配置文件： */opt/couchbase/etc/couchbase/static_config*  
+Couchbase Server 数据路径： */opt/couchbase/var/lib/couchbase*
+Couchbase Server 日志文件： */opt/couchbase/var/lib/couchbase/logs*
+
+### Nginx
+
+Nginx vhost configuration file: */etc/nginx/conf.d/default.conf*  
+Nginx main configuration file: */etc/nginx/nginx.conf*  
+Nginx logs file: */var/log/nginx/*
+
 
 ## 端口号
 
-下面是您在使用本镜像过程中，需要用到的端口号，请通过云控制台安全组进行设置
+下面是您在使用本镜像过程中，需要用到的端口号，请通过 [云控制台安全组](https://support.websoft9.com/docs/faq/zh/tech-instance.html)进行设置
 
 | 名称 | 端口号 | 用途 |  必要性 |
 | --- | --- | --- | --- |
-| 数据库可视化访问端口 | 8091 | 通过http访问Couchbase | 必须 |
+| HTTP | 80 | 通过http访问Couchbase Web界面，Nginx | 必须 |
+| HTTP | 443 | 通过http访问Couchbase Web界面，Nginx  | 必须 |
+| HTTP | 8091 | 通过http访问Couchbase Web界面 | 必须 |
 
 ## 版本号
 
-组件对应的基本版本号可以通过云市场商品页面查看，但部署到您的服务器之后，版本会有一定的升级，故更为精准的版本请通过在服务器上运行命令查看：
+组件版本号可以通过云市场商品页面查看。但部署到您的服务器之后，组件会自动进行更新导致版本号有一定的变化，故精准的版本号请通过在服务器上运行命令查看：
 
-Couchbase: 6.0.0（通过web界面查看）
+```shell
+# Java Version
+java --version
+
+# Nginx version:
+nginx -v
+
+# MySQL version:
+mysql -V
+
+# Dokcer:
+docker --version
+```
