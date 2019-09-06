@@ -46,5 +46,6 @@
   become_method: sudo
 
   roles:
-    - { role: common, tags: "common"}  
+    # - { role: common, tags: "common"}
+    - { role: nginx, tags: "nginx"}
     - { role: couchbase, tags: "couchbase"}
