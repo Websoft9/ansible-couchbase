@@ -20,6 +20,19 @@ Couchbase 域名绑定操作步骤：
    ```
 3. 保存配置文件，重启[Nginx服务](/zh/admin-services.md#nginx)
 
+## 命令操作Couchbase
+
+通过如下几个步骤来使用命令操作 Couchbase
+
+1. 通过 SSH 连接到服务器
+2. 进入 *opt/couchbase/bin* 目录
+3. 连接到 Couchbase 数据库实例（示例连接字符串）： *./cbq -u Administrator -p admin123 -engine=http:127.0.0.1:8091/*
+   ![Couchbase Connect](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-command-websoft9.png)
+
+   - Administrator is username
+   - admin123 is password
+
+4. 连接成功
 
 ## 管理集群
 

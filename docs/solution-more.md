@@ -20,6 +20,19 @@ Couchbase domain name binding steps:
    ```
 3. Save it and restart [Nginx Service](/admin-services.md#nginx)
 
+## Use Command
+
+You can use command to manage Couchbase
+
+1. Use SSH to connect instance
+2. CD to *opt/couchbase/bin*
+3. Connect Couchbase by the your String *./cbq -u Administrator -p admin123 -engine=http:127.0.0.1:8091/*
+   ![Couchbase Connect](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-command-websoft9.png)
+
+   - Administrator is username
+   - admin123 is password
+
+4. Connect successful
 
 ## Manage Cluster
 
