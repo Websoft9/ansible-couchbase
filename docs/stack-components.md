@@ -25,7 +25,7 @@ These Ports is need when use Couchbase, refer to [Safe Group Setting on Cloud Co
 | --- | --- | --- | --- |
 | HTTP | 80 | HTTP requests for Couchbase by Nginx proxy | Required |
 | HTTPS | 443 | HTTPS requests Couchbase by Nginx proxy | Optional |
-| Couchbase | 9091 | Remote connect Couchbase | Optional |
+| Couchbase | 8091 | Remote connect Couchbase | Optional |
 
 ## Version
 
