@@ -41,4 +41,4 @@ sidebarDepth: 3
 
 ### Couchbase备份工具
 
-参考官方文档:[Using cbbackup and cbrestore Tools](https://docs.couchbase.com/server/6.0/backup-restore/enterprise-backup-restore.html)
+参考官方文档：[Using cbbackup and cbrestore Tools](https://docs.couchbase.com/server/6.0/backup-restore/enterprise-backup-restore.html)

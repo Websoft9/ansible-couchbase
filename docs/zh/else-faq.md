@@ -1,40 +1,21 @@
 # FAQ
 
-#### Couchbase支持多语言吗？
+#### Couchbase 支持集群吗？
 
-支持多语言（包含中文），系统默认根据浏览器自动选择语言 
-
-#### Couchbase数据库连接配置信息在哪里？
-
-数据库配置信息在Couchbase安装目录下的 *metabase.conf* 中，[查阅安装目录路径](/zh/stack-components.md#metabase)
+支持
 
 #### 如果没有域名是否可以部署 Couchbase？
 
 可以，访问`http://服务器公网IP` 即可
 
-#### 数据库 root 用户对应的密码是多少？
-
-密码存放在服务器相关文件中：`/credentials/password.txt`
-
 #### 是否有可视化的数据库管理工具？
 
-有，内置phpMyAdmin，访问地址：http://服务器公网IP:9090
+有，Couchbase 自带 GUI 工具，访问地址：*http://服务器公网IP*
 
-#### 如何禁止phpMyAdmin访问？
+#### 如何禁止 Couchbase GUI 访问？
 
-关闭服务器安全组的9090端口即可禁止
+关闭服务器安全组的80端口即可禁止
 
-#### 是否可以修改Couchbase的源码路径？
-
-可以，通过修改 [Nginx 虚拟主机配置文件](/zh/stack-components.md)中相关参数
-
-#### 如何修改上传的文件权限?
-
-```shell
-chown -R nginx.nginx /data/wwwroot/metabase
-find /data/wwwroot/metabase -type d -exec chmod 750 {} \;
-find /data/wwwroot/metabase -type f -exec chmod 640 {} \;
-```
 #### 部署和安装有什么区别？
 
 部署是将一序列软件按照不同顺序，先后安装并配置到服务器的过程，是一个复杂的系统工程。  

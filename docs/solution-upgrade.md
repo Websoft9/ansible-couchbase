@@ -26,17 +26,7 @@ yum update -y
 
 ## Couchbase Upgrade
 
-Follow the steps below to complete the upgrade:
+You can see the reminder from the Dashboard of Couchbase when there have new upgrade  
+![Couchbase upgrade](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-upgrades-websoft9.png)
 
-1. Log in Couchbase, go to Admin->Setting->Updates, the system will give you a reminder if there is a new upgrade package
-![Couchbase updates reminder](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-updatereminder-websoft9.png)
-
-2. Click the **Upgrade** button, go to the [Couchbase Install](https://metabase.com/start/) page
-
-3. The deployment package we provide is in the jar package installation mode, so on the installation page we select the **Custom install** mode.
-![Couchbase install](https://libs.websoft9.com/Websoft9/DocsPicture/zh/metabase/metabase-updatedl-websoft9.png)
-
-3. Download teh Couchbase.jar pakage and upload to your instance's directory `/data/wwwroot/metabase`
-![Couchbase upload](https://libs.websoft9.com/Websoft9/DocsPicture/zh/metabase/metabase-updatereplace-websoft9.png)
-
-4. Overwrite existing files and reload the Couchbase
+More details about Upgrade, refer to: [Couchbase's Upgrade docs](https://docs.couchbase.com/server/6.0/install/upgrade.html)

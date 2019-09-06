@@ -4,11 +4,11 @@ home: false
 
 # Overview
 
-This documentation is provided by [Websoft9](https://www.websoft9.com/), it can help users to acquire skills of Couchbase Deployment, Installation, Configuration, HTTPS, SMTP, Backup, Upgrade, Connect Instance and more.
+This documentation is provided by [Websoft9](https://www.websoft9.com/), it can help users to acquire skills of Couchbase Server Deployment, Installation, Configuration, HTTPS, SMTP, Backup, Upgrade, Connect Instance and more.
 
 [Couchbase](https://www.couchbase.com) originally known as Membase, is an open-source, distributed multi-model NoSQL document-oriented database software package that is optimized for interactive applications. 
 
-![](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-product-screenshot.png)
+![Couchbase GUI](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-console-websoft9.png)
 
 ---
 

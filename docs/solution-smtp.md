@@ -15,9 +15,9 @@ Follow is the sample using **SendGrid's SMTP Service** to configure sending mail
    SMTP username: websoft9smpt
    SMTP password: #fdfwwBJ8f    
    ```
-2. Log in Couchbase Console
-3. Enter the SMTP settings
-![Couchbase SMTP](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-smtp-websoft9.png)
-4. Click the **Test Connection**, you can get the feedback *"no errors were..."* if SMTP is useful
+2. Log in Couchbase Console, open **Settings**> **Email Alerts**
+3. Fill in the SMTP settings
+![Couchbase SMTP](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-smtp-websoft9.png)
+4. Click the **Send Test Email**
 
 More SMTP Service(Gmail, Hotmail, QQ mail, Yahoo mail, SendGrid and so on)  settings or Issues with SMTP, please refer to Websoft9's *[SMTP Guide](https://support.websoft9.com/docs/faq/tech-smtp.html)*

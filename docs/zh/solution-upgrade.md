@@ -24,8 +24,8 @@ yum update -y
 
 ## Couchbase升级
 
-Couchbase有升级包的时候，后台会及时给出提示。参考下面的步骤完成升级：
+Couchbase有升级包的时候，后台会及时给出提示
 
 ![Couchbase upgrade](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-upgrades-websoft9.png)
 
-[官方升级文档](https://docs.couchbase.com/server/6.0/install/upgrade.html)
+详细的升级步骤，请参考官方文档：[Couchbase Upgrade docs](https://docs.couchbase.com/server/6.0/install/upgrade.html)

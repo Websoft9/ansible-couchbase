@@ -2,13 +2,13 @@
 
 使用由Websoft9提供的Couchbase部署方案，可能需要用到的服务如下：
 
-### Couchbase
+### Couchbase Server
 
 ```shell
-sudo systemctl start metabase
-sudo systemctl stop metabase
-sudo systemctl restart metabase
-sudo systemctl status metabase
+sudo systemctl start couchbase-server
+sudo systemctl stop couchbase-server
+sudo systemctl restart couchbase-server
+sudo systemctl status couchbase-server
 ```
 
 ### Nginx
@@ -19,13 +19,3 @@ sudo systemctl stop nginx
 sudo systemctl restart nginx
 sudo systemctl status nginx
 ```
-
-### MySQL
-
-```shell
-sudo systemctl start mysql
-sudo systemctl stop mysql
-sudo systemctl restart mysql
-sudo systemctl status mysql
-```
-

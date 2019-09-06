@@ -11,30 +11,27 @@ If you have completed the Couchbase deployment on Cloud Platform, the following 
 ## Couchbase Installation Wizard
 
 1. Using local Chrome or Firefox to visit the URL *http://domain name* or *http://Internet IP*, you will enter the register interface of Couchbase
-   ![](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-start-websoft9.png)
-2. You may wait for 1-3 Minutes for the loading of Couchbase
-![Start Couchbase](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-starty-websoft9.png)
+![Couchbase初始化页面](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-start-websoft9.png)
 
-3. Click the **Let's get started** button and set your administrator account, then go to next step
-4. Add your data: you can select the type of Database which will be analyzed or  click **I'll add my data later** then Couchbase will create a Demo from H2 Database
-![Add data to Couchbase](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-installdb-websoft9.png)
+2. Create new Cluster and Administrator user, then go to next step    
+![Couchbase new Cluster](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-newcluster-websoft9.png)
 
-5. Once you have completed the installation, click the button **Take me to Couchbase** to log in Couchbase Console
-![Couchbase installation successful](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-installss-websoft9.png)
+3. Accept "Term & conditions", then configure it by click **Filish With Defaults** or other
+![配置Couchbase](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-accept-websoft9.png)
 
-6. Take the H2 demo data as an example to start data analysis work.
-![Couchbase H2](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-dashborad-websoft9.png)
+4. Go to Couchbase Dashboard  
+![Couchbase Servers](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-console-websoft9.png)
 
-7. Log in Couchbase Console, go to **Couchbase Admin** page like below
-![Couchbase Admin](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-admin-websoft9.png)
+5. Click the **Servers** on the left memu, list all the servers in this cluster  
+![Couchbase servers](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-listservers-websoft9.png)
 
-8. Click **Add a database** to add a new data source for Couchbase
-![Couchbase Data source](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-adddb-websoft9.png)
+6. Click the  **Servers** on the left memu, then **Add User** to create new user
+![Couchbase Add user](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-adduser-websoft9.png)
 
-9. Click **People** tab on the top of Couchbase Admin, you can add user and modify password
-![Couchbase People](https://libs.websoft9.com/Websoft9/DocsPicture/en/metabase/metabase-users-websoft9.png)
+7. Click the **Logs** on the left memu to view logs
+![Couchbase logs](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-logs-websoft9.png)
 
-> More useful Couchbase guide, please refer to [Couchbase Documentation](https://metabase.com/docs/latest/)
+> More useful Couchbase guide, please refer to [Couchbase Documentation](https://docs.couchbase.com/server)
 
 ## Q&A
 
@@ -42,6 +39,6 @@ If you have completed the Couchbase deployment on Cloud Platform, the following 
 
 Your TCP:80 of Security Group Rules is not allowed so there no response from Chrome or Firefox
 
-#### Which database does this Couchbase use?
+#### Can Couchbase Dashboard connect to a non-native database?
 
-MySQL
+Yes

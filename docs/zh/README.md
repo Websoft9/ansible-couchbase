@@ -4,11 +4,11 @@ home: false
 
 # 关于
 
-本文档由 [Websoft9](https://www.websoft9.com/) 公司提供，用于指导用户学习 Couchbase 的安装部署与基本运维技术，包括：Couchbase部署、初始化安装、环境配置、HTTPS、SMTP、备份升级和连接云服务器操作等基本操作。
+本文档由 [Websoft9](https://www.websoft9.com/) 公司提供，用于指导用户学习 Couchbase Server 的安装部署与基本运维技术，包括：Couchbase Server 部署、初始化安装、环境配置、HTTPS、SMTP、备份升级和连接云服务器操作等基本操作。
 
 [Couchbase](https://www.couchbase.com) （前身是 Membase） 是一个分布式的面向文档的 NoSQL 数据库管理系统，该系统联合了 CouchDB 的简单和可靠以及 Memcached 的高性能以及 Membase 的伸缩性。
 
-![](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-product-screenshot.png)
+![Couchbase 界面](https://libs.websoft9.com/Websoft9/DocsPicture/en/couchbase/couchbase-console-websoft9.png)
 
 ---
 

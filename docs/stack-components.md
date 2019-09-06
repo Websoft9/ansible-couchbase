@@ -6,26 +6,16 @@ The Couchbase deployment package contains a sequence software (referred to as "c
 
 ### Couchbase
 
-Couchbase installation directory: */data/wwwroot/metabase*  
-Couchbase configuration file: */data/wwwroot/metabase/metabase.conf*  
-
-### Java
-
-Java Directory: */usr/lib/jvm*
+Couchbase Server installation directory: */opt/couchbase*  
+Couchbase Server configuration file: */opt/couchbase/etc/couchbase/static_config*  
+Couchbase Server data directory: */opt/couchbase/var/lib/couchbase*  
+Couchbase Server logs file: */opt/couchbase/var/lib/couchbase/logs*
 
 ### Nginx
 
-Nginx vhost configuration file: */etc/nginx/sites-available/default.conf*  
+Nginx vhost configuration file: */etc/nginx/conf.d/default.conf*  
 Nginx main configuration file: */etc/nginx/nginx.conf*  
 Nginx logs file: */var/log/nginx/*
-
-### MYSQL
-
-MySQL installation directory: */usr/local/mysql*  
-MySQL data directory: */data/mysql*  
-MySQL configuration file: */etc/my.cnf*    
-MySQL Web Management URL: *http://Internet IP:9090*, get credential from [Username and Password](/stack-accounts.md)
-
 
 ## Ports
 
@@ -33,25 +23,15 @@ These Ports is need when use Couchbase, refer to [Safe Group Setting on Cloud Co
 
 | Name | Number | Use |  Necessity |
 | --- | --- | --- | --- |
-| MySQL | 3306 | Remote connect MySQL | Optional |
-| HTTP | 80 | HTTP requests for Couchbase | Required |
-| HTTPS | 443 | HTTPS requests Couchbase | Optional |
-| phpMyAdmin on Docker | 9090 | Web managment GUI for MySQL | Optional |
+| HTTP | 80 | HTTP requests for Couchbase by Nginx proxy | Required |
+| HTTPS | 443 | HTTPS requests Couchbase by Nginx proxy | Optional |
+| Couchbase | 9091 | Remote connect Couchbase | Optional |
 
 ## Version
 
 You can see the version from product page of Marketplace. However, after being deployed to your server, the components will be automatically updated, resulting in a certain change in the version number. Therefore, the exact version number should be viewed by running the command on the server:
 
 ```shell
-# Java Version
-java --version
-
 # Nginx version:
 nginx -v
-
-# MySQL version:
-mysql -V
-
-# Dokcer:
-docker --version
 ```
