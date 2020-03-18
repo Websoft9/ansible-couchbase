@@ -12,5 +12,5 @@
     - { role: role_cloud, tags: "role_cloud"}
     - { role: role_nginx, tags: "role_nginx"}
     - { role: couchbase, tags: "couchbase"}
-    - { role: preend, tags: "preend"}
-    - { role: end, tags: "end"}
+    - { role: role_preend, tags: "role_preend"}
+    - { role: role_end, tags: "role_end"}
