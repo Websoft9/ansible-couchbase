@@ -4,7 +4,7 @@
 
 ## To do
 
-* AmazonLinux支持
+* AmazonLinux支持（找不到官方下载地址）
 
 
 ## Logs
