@@ -37,3 +37,13 @@ You can use command to manage Couchbase
 ## Manage Cluster
 
 Coming soon
+
+## CLI
+
+CouchBase provided CLI for user to manage, you can find them from these directory
+
+* /opt/couchbase/bin
+* /opt/couchbase/bin/install 
+* /opt/couchbase/bin/tools
+
+`cbbackupmgr,cbbackup,cbepctl,cbrestore,cbrestore,cbstats`
