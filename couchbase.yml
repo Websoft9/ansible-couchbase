@@ -1,6 +1,6 @@
 ---
 # 核心任务
-- name: main
+- name: CouchBase
   hosts: all
   become: yes
   become_method: sudo
