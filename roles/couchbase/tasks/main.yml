@@ -12,9 +12,9 @@
 
 # display version and service state of components
 - name: Get Couchbase version
-  shell: nginx -v
+  shell: cat /opt/couchbase/VERSION.txt
   register: check_couchbase_version
-  notify: check_couchbasex_version
+  notify: check_couchbase_version
 
 - name: Check Couchbase Service
   shell: systemctl status couchbase-server | grep Active*
