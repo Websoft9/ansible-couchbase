@@ -3,3 +3,20 @@
 
 # Configure Couchbase
 
+# set soft link
+- name: set soft link
+  shell: |
+    ln -s /opt/couchbase  /data/wwwroot/couchbase
+    ln -s /opt/couchbase/var/lib/couchbase/config /data/config/couchbase
+    ln -s /opt/couchbase/var/lib/couchbase/logs /data/logs/couchbase
+
+# display version and service state of components
+- name: Get Couchbase version
+  shell: nginx -v
+  register: check_couchbase_version
+  notify: check_couchbasex_version
+
+- name: Check Couchbase Service
+  shell: systemctl status couchbase-server | grep Active*
+  register: check_couchbase_service
+  notify: check_couchbase_service
