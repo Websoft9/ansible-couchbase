@@ -32,6 +32,13 @@ These Ports is need when use Couchbase, refer to [Safe Group Setting on Cloud Co
 You can see the version from product page of Marketplace. However, after being deployed to your server, the components will be automatically updated, resulting in a certain change in the version number. Therefore, the exact version number should be viewed by running the command on the server:
 
 ```shell
+```shell
+# Linux Version
+lsb_release -a
+
 # Nginx version:
 nginx -v
+
+# cat Couchbase version
+cat /opt/couchbase/VERSION.txt
 ```
