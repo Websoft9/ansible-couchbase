@@ -15,6 +15,8 @@
 | 私有云|  KVM, VMware, VirtualBox, OpenStack | 可选 |
 | 服务器配置 | 最低1核1G，安装时所需的带宽不低于10M |  建议采用按量100M带宽 |
 
+更多要求请参考官方 [System Requirements](https://docs.couchbase.com/server/6.5/install/plan-for-production.html)
+
 ## 组件
 
 包含的核心组件为：Couchbase + Nginx
