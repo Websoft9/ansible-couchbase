@@ -1,8 +1,12 @@
 # 故障处理
 
-除了[官方提供的故障诊断](https://docs.couchbase.com/server/6.0/manage/troubleshoot/troubleshoot.html)外，我们收集使用Couchbase过程中最常见的故障，供您参考：
+此处收集使用 CouchBase 过程中最常见的故障，供您参考
 
-## 数据库相关
+> 大部分故障与云平台密切相关，如果你可以确认故障的原因是云平台造成的，请参考[云平台文档](https://support.websoft9.com/docs/faq/zh/tech-instance.html)
+
+#### 有没有官方提供的故障指南？
+
+参考：[官方提供的故障诊断](https://docs.couchbase.com/server/6.0/manage/troubleshoot/troubleshoot.html)
 
 #### 数据库服务无法启动
 
@@ -16,10 +20,3 @@ df -lh
 # 查看内存使用
 free -lh
 ```
-## 服务器相关
-
-服务器相关故障的诊断和解决，与云平台密切相关，请参考[云平台文档](https://support.websoft9.com/docs/faq/zh/tech-instance.html)
-
-## 网络相关
-
-## 其他
