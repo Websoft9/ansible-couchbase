@@ -40,5 +40,5 @@ lsb_release -a
 nginx -v
 
 # cat Couchbase version
-cat cat /opt/couchbase/VERSION.txt
+cat /opt/couchbase/VERSION.txt
 ```
