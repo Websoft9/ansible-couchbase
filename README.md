@@ -10,7 +10,7 @@
 
 | 条件       | 详情       | 备注  |
 | ------------ | ------------ | ----- |
-| 操作系统       | Ubuntu16.04  Ubuntu14.04      |   |
+| 操作系统       | CentOS7.x, Ubuntu16.04/18.04, Amazon Linux 2  |  可选 |
 | 公有云| AWS, Azure, 阿里云, 华为云, 腾讯云 | 可选 |
 | 私有云|  KVM, VMware, VirtualBox, OpenStack | 可选 |
 | 服务器配置 | 最低1核1G，安装时所需的带宽不低于10M |  建议采用按量100M带宽 |
@@ -23,7 +23,7 @@
 
 ## 本项目安装的是 Moodle 最新版吗？
 
-本项目 [Couchbase Server repo](/roles/couchbase/tasks/main.yml) 中设置好了官方 deb 包，这个包的地址一般不会变化。软件版本的变化内容在这个包中去实现  
+本项目 [Couchbase Server repo](/roles/couchbase/tasks/main.yml) 中设置好了官方 deb/rpm 包，这个包的地址一般不会变化。软件版本的变化内容在这个包中去实现  
 即我们每次安装都可以保证是官方发布的最新版本 
 
 ## 安装指南
@@ -52,6 +52,4 @@ wget -N https://raw.githubusercontent.com/Websoft9/ansible-linux/master/scripts/
 
 - 命令脚本部署与镜像部署有什么区别？请参考：[镜像部署-vs-脚本部署](https://support.websoft9.com/docs/faq/zh/bz-product.html#镜像部署-vs-脚本部署)
 - 本项目支持在 Ansible Tower 上运行吗？支持
-
-## To do
 
