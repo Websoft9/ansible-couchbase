@@ -33,6 +33,12 @@ Nginx 日志文件： */var/log/nginx/*
 组件版本号可以通过云市场商品页面查看。但部署到您的服务器之后，组件会自动进行更新导致版本号有一定的变化，故精准的版本号请通过在服务器上运行命令查看：
 
 ```shell
+# Linux Version
+lsb_release -a
+
 # Nginx version:
 nginx -v
+
+# cat Couchbase version
+cat cat /opt/couchbase/VERSION.txt
 ```
