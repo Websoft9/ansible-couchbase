@@ -37,3 +37,14 @@ Couchbase 域名绑定操作步骤：
 ## 管理集群
 
 暂无
+
+## CLI
+
+cli工具存放路径:
+
+* /opt/couchbase/bin
+* /opt/couchbase/bin/install 
+* /opt/couchbase/bin/tools
+
+提供 cbbackupmgr,cbbackup,cbepctl,cbrestore,cbrestore,cbstats 等
+
