@@ -6,9 +6,9 @@
 # set soft link
 - name: set soft link
   shell: |
-    ln -s /opt/couchbase  /data/wwwroot/couchbase
-    ln -s /opt/couchbase/var/lib/couchbase/config /data/config/couchbase
-    ln -s /opt/couchbase/var/lib/couchbase/logs /data/logs/couchbase
+    ln -sb /opt/couchbase  /data/wwwroot/couchbase
+    ln -sb /opt/couchbase/var/lib/couchbase/config /data/config/couchbase
+    ln -sb /opt/couchbase/var/lib/couchbase/logs /data/logs/couchbase
 
 # display version and service state of components
 - name: Get Couchbase version
