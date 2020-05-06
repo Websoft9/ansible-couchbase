@@ -1,7 +1,3 @@
-- name: check_couchbase_version
-  debug:
-    var: check_couchbase_version.stdout
-    
 - name: check_couchbase_service
   debug:
     var: check_couchbase_service.stdout
