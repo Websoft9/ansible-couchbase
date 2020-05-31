@@ -1,3 +1,0 @@
-- name: check_couchbase_service
-  debug:
-    var: check_couchbase_service.stdout
