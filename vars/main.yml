@@ -1,2 +1,2 @@
 nginx_reverse_proxy_port: "8091"
-preend_certbot: True
+common_os_support: ["CentOS", "Ubuntu", "Amazon"]
