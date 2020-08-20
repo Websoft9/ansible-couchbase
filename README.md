@@ -50,6 +50,10 @@ wget -N https://raw.githubusercontent.com/Websoft9/ansible-linux/master/scripts/
 
 文档链接：https://support.websoft9.com/docs/couchbase/zh
 
+## License
+
+[Couchbase Community License](https://www.couchbase.com/community-license-agreement) 明确不允许转授和分发，因此不可以在任何云市场上上架
+
 ## FAQ
 
 - 命令脚本部署与镜像部署有什么区别？请参考：[镜像部署-vs-脚本部署](https://support.websoft9.com/docs/faq/zh/bz-product.html#镜像部署-vs-脚本部署)
