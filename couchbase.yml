@@ -6,6 +6,27 @@
   become_method: sudo
   vars_files:
     - vars/main.yml
+    
+  vars_prompt:
+    - name: 'couchbase_license_selection'
+      prompt: "Couchbase is not allowed to resell, what is your purpose? \n
+      1: Use by myself\n
+      2: Build image and resell it on Marketplace\n"
+      private: no
+      default: 1
+
+  vars:
+    couchbase_license_select:
+      '1': True
+      '2': False
+
+    rabbitmq_distribution: "{{rabbitmq_select[rabbitmq_selection]}}"
+ 
+  pre_tasks:
+  
+    - name: Check License
+      fail: msg="Couchbase License not support for resell, exit!"
+      when: not couchbase_license_select
 
   roles:
     - { role: role_common, tags: "role_common"}
