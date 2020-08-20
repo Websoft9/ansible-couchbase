@@ -1,11 +1,8 @@
 # CHANGELOG
 
-
-
 ## To do
 
-* AmazonLinux支持（找不到官方下载地址）
-
+* AmazonLinux not found package
 
 ## Logs
 
@@ -15,5 +12,5 @@
 
 ### Features
 
-* 2020-04-28  改写项目
+* 2020-08-20  add License check
 
