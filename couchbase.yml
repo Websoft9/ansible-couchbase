@@ -20,13 +20,13 @@
       '1': True
       '2': False
 
-    rabbitmq_distribution: "{{rabbitmq_select[rabbitmq_selection]}}"
+    couchbase_license: "{{couchbase_license_select[couchbase_license_selection]}}"
  
   pre_tasks:
   
     - name: Check License
       fail: msg="Couchbase License not support for resell, exit!"
-      when: not couchbase_license_select
+      when: not couchbase_license
 
   roles:
     - { role: role_common, tags: "role_common"}
