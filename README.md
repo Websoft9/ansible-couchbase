@@ -52,7 +52,10 @@ wget -N https://raw.githubusercontent.com/Websoft9/ansible-linux/master/scripts/
 
 ## License
 
-[Couchbase Community License](https://www.couchbase.com/community-license-agreement) 明确不允许转授和分发，因此不可以在任何云市场上上架
+[LGPL-3.0](/License.md), Additional Terms: It is not allowed to publish free or paid image based on this repository in any Cloud platform's Marketplace.
+Copyright (c) 2016-present, Websoft9
+
+> Couchabase官方明确不允许转授和分发[Couchbase Community License](https://www.couchbase.com/community-license-agreement) 
 
 ## FAQ
 
